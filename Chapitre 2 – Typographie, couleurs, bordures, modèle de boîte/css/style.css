@@ -1,0 +1,55 @@
+header{
+    background-color: #bed5eb;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 100px;
+}
+img{
+    width: 200px;
+}
+.Cours h2{
+    color: #542b0b;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    text-align: center; 
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 200px;
+    
+}
+.Cours p {
+    
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: justify;
+    color: brown;
+    
+}
+.Cours ul li {
+    color: rgb(255, 5, 5);
+    font-size: larger;
+    text-align: left;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Example h2{
+    color: #2399bd;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    text-align: center; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Example h2 {
+    background-color: bisque;
+    border-radius: 300px;
+}
+.Example p{
+    color: rgb(128, 103, 210);
+    font-size: 20px;
+    text-align: left;
+
+}
