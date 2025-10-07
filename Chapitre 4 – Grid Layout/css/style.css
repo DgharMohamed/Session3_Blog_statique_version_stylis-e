@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 1fr 60px; 
+  gap: 10px;
+  height: 100vh;
+}
+.header {
+  grid-column: 1 / 3;
+  background: #3498db;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 100px;
+}
+.sidebar {
+    background-color: coral;
+    color:rgb(0, 0, 0) ;
+    text-align: start;
+    padding: 30px;
+}
+.content{
+    background-color: forestgreen;
+    color: aliceblue;
+    text-align: left;
+    padding: 30px
+  
+
+}
+.footer{
+    grid-column: 1 / 3;
+    background-color: rgb(209, 23, 23);
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+}
+
