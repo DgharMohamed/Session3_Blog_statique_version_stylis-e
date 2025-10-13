@@ -1,0 +1,114 @@
+body {
+  font-family: arial;
+  margin: 10px;
+  align-items: center;
+  display: flex;
+  background-color: rgb(220, 211, 130);
+}
+.container {
+  align-items: center;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  box-shadow: 5px;
+  background-color: white;
+  margin: auto;
+  width: 800px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  border-radius: 30px 0 0 30px;
+  padding: 5px;
+  width: 280px;
+  height: 900px;
+}
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px rgb(244, 151, 3) solid;
+  margin: 10px;
+}
+.sidebar h1 {
+  color: rgb(255, 171, 35);
+  font-size: 28px;
+}
+.sidebar h3 {
+  color: orange;
+  font-size: 20px;
+}
+.sidebar p {
+  text-align: center;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 0;
+}
+.content h2 {
+  background-color: rgb(251, 150, 0);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.content p {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.skills-table {
+  border: 5px rgb(255, 255, 255) solid;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  margin-left: 20px;
+  gap: 0px;
+  outline: none;
+}
+.skills-table tr th {
+  border: 1px rgb(0, 0, 0) solid;
+  background-color: blanchedalmond;
+  border-radius: 1px;
+}
+.skills-table tr td {
+  border: 1px black solid;
+  border-radius: 1x;
+  background-color: rgb(251, 150, 0);
+}
+button {
+  display: flexbox;
+  background-color: rgb(251, 150, 0);
+  border: 1px;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5px;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.coding-btn {
+  margin-left: 25px;
+}
+.section-contacts p {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.section-contacts a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
