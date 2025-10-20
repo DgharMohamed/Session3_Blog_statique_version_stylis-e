@@ -3,14 +3,19 @@ body {
   background-color: #000;
   color: #fff;
   font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
- font-size: 1rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  max-width: 900px;
+  padding: 0px;
 }
 
 /* Header Styles */
@@ -23,9 +28,17 @@ header img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid yellow;
+  border: 3px solid yellow;
   display: block;
   margin: 0 auto 1rem;
+  box-shadow: 0 0 5px 1px yellow;
+  transition: ease 0.5s;
+}
+header img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 2px yellow;
+  border: 0.5px;
+  border-color: #000;
 }
 
 header h2 {
@@ -35,10 +48,7 @@ header h2 {
 }
 
 /* Main Content & Section Styles */
-main {
-  max-width: 900px;
-  padding: 0 1rem;
-}
+
 .description p {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
@@ -86,15 +96,16 @@ main section li {
 
 /* Footer Styles */
 footer {
+  margin: auto;
   text-align: center;
   max-width: 900px;
 }
 
 footer p {
-    font-size: 20px;
-    line-height: 1.5rem;
-    color: #fff;
-    font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
 }
 
 footer .Navigation {
@@ -112,4 +123,7 @@ footer .Navigation a {
   text-decoration: none;
   font-size: 20px;
   margin: 0 15px;
+}
+footer .Navigation a:hover {
+  color: white;
 }
