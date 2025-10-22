@@ -4,13 +4,48 @@ body{
     font-size: 1rem;
     margin-top: 3rem;
 }
+.container {
+    display: grid;
+}
+.navbar ul, li {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+
+}
+.cv {
+    margin-right:20px ;
+    padding: 5px 30px;
+
+}
+.contact{  
+    margin-right:20px ;
+    padding: 5px 30px;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgb(246, 255, 0);
+
+    
+}
+.navbar a:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 10px 1px white;
+}
 header img {
  width: 200px;
   height: 200px;
   border-radius: 50%;
   border: 3px solid yellow;
   display: block;
-  margin: 0 auto 1rem;
+  margin:  auto ;
+  margin-top: 50px;
   box-shadow: 0 0 5px 1px yellow;
   transition: ease 0.5s;
 }
@@ -49,21 +84,30 @@ header h1 {
     margin: 15px auto;
     font-style: italic;
 }
-footer li {
-text-align: center;
-color: rgb(0, 0, 0);
+footer ul, li {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
 }
 footer p {
-    margin: auto;
+    color: aliceblue;
     text-align: center;
-    color: yellow;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .link-footer {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
     text-decoration: none;
-    color: yellow;
-    font-size: 20px;
-    margin: 15px auto;
+    font-size: 18px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgb(246, 255, 0);
+    margin-bottom:20px ;
+    padding: 5px 30px;
 }
 .link-footer:hover{
-    color: white ;
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 10px 1px white;
 }
